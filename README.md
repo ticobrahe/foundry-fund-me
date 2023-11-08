@@ -1,47 +1,16 @@
-## Foundry Fund Me
+# About
+This is a crowd sourcing app
 
-## Usage
+# Getting started
 
-### Build
-
+## Quickstart
 ```shell
-$ forge build
+git clone https://github.com/ticobrahe/foundry-fund-me
+cd foundry-fund-me
+forge build
 ```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
+## Deploy
 
 ```shell
 $ forge script script/DeployFundMe.s.sol --rpc-url $SEPOLIA_RPC_URL --private-key $PRIVATE_KEY
 ```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-
